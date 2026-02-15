@@ -1,0 +1,6 @@
+crud-alunos/
+│
+├── aluno.py
+├── main.py
+├── README.md
+└── .gitignore
