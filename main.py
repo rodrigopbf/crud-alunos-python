@@ -91,7 +91,7 @@ def read():
                 for aluno in alunos:
                     print(f" Id: {aluno.id} - Nome: {aluno.nome} - Idade: {aluno.idade} - Curso: {aluno.curso}")
                 time.sleep(2)
-                contiuar_listando = ("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
+                contiuar_listando = input("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
                 
                 if contiuar_listando == "y":
                     print("Perfeito! você será redirecionado ao menu de listagem!")
@@ -112,7 +112,7 @@ def read():
                     print(f" Id: {aluno.id} - Nome: {aluno.nome} - Idade: {aluno.idade} - Curso: {aluno.curso}")
                 time.sleep(2)
                 
-                contiuar_listando = ("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
+                contiuar_listando = input("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
                 
                 if contiuar_listando == "y":
                     print("Perfeito! você será redirecionado ao menu de listagem!")
@@ -132,7 +132,7 @@ def read():
                     print(f" Id: {aluno.id} - Nome: {aluno.nome} - Idade: {aluno.idade} - Curso: {aluno.curso}")
                 time.sleep(2)
                 
-                contiuar_listando = ("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
+                contiuar_listando = input("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
                 
                 if contiuar_listando == "y":
                     print("Perfeito! você será redirecionado ao menu de listagem!")
@@ -151,7 +151,7 @@ def read():
                     print(f" Id: {aluno.id} - Nome: {aluno.nome} - Idade: {aluno.idade} - Curso: {aluno.curso}")
                 time.sleep(2)
                 
-                contiuar_listando = ("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
+                contiuar_listando = input("Deseja listar alunos novamente utilizando outros critérios? [y/n]")
                 
                 if contiuar_listando == "y":
                     print("Perfeito! você será redirecionado ao menu de listagem!")
