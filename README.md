@@ -1,17 +1,21 @@
 # Sistema de Cadastro de Alunos (Python)
 
-Projeto em Python desenvolvido para praticar lógica de programação,
-POO e controle de fluxo.
+Projeto em Python para praticar:
+
+- Programação Orientada a Objetos
+- CRUD
+- SQLite
+- Organização em camadas (DAO)
 
 ## Funcionalidades
+
 - Cadastrar aluno
 - Listar alunos
+- Buscar por ID
 - Atualizar dados
-- Remover aluno por ID
+- Remover aluno
 
 ## Tecnologias
-- Python 3
-- Execução via terminal
 
-## Objetivo
-Projeto educacional para consolidação de conceitos básicos de programação.
+- Python 3
+- SQLite
