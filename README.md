@@ -1,21 +1,51 @@
-# Sistema de Cadastro de Alunos (Python)
+# CRUD de Alunos em Python
 
-Projeto em Python para praticar:
+Um projeto simples de **CRUD (Create, Read, Update, Delete)**
+desenvolvido em Python para gerenciamento de alunos via terminal,
+utilizando **SQLite** como banco de dados.
 
-- Programação Orientada a Objetos
-- CRUD
-- SQLite
-- Organização em camadas (DAO)
+## Sobre o Projeto
 
-## Funcionalidades
+Este projeto tem como objetivo praticar conceitos fundamentais de
+desenvolvimento backend com Python, incluindo:
 
-- Cadastrar aluno
-- Listar alunos
-- Buscar por ID
-- Atualizar dados
-- Remover aluno
+-   Estruturas de controle
+-   Programação orientada a objetos (POO)
+-   Persistência de dados com SQLite
+-   Organização em camadas (DAO)
 
-## Tecnologias
+##  Funcionalidades
 
-- Python 3
-- SQLite
+-    Cadastrar aluno;
+-   Listar todos os alunos;
+-    Buscar aluno por ID;
+-   Atualizar dados de um aluno;
+-   Remover aluno.
+
+##  Estrutura do Projeto
+
+    crud-alunos-python/
+    │
+    ├── main.py
+    ├── dao/
+    │   └── aluno_dao.py
+    ├── models/
+    │   └── aluno.py
+    ├── database/
+    │   └── database.py
+    └── README.md
+
+##  Tecnologias Utilizadas
+
+-   Python 3.x
+-   SQLite
+
+## Como Executar
+
+``` bash
+git clone https://github.com/rodrigopbf/crud-alunos-python.git
+cd crud-alunos-python
+python main.py
+```
+
+
